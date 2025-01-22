@@ -13,7 +13,7 @@ export const MovieDetails: React.FC = () => {
         <div className="relative">
           <button
             onClick={() => setSelectedMovie(null)}
-            className="absolute right-4 top-4 p-2 rounded-full bg-gray-800 hover:bg-gray-700 text-white z-10"
+            className="absolute right-4 top-4 p-2 rounded-full bg-gray-800 hover:bg-gray-700 text-white z-10" 
           >
             <X className="h-6 w-6" />
           </button>
