@@ -7,7 +7,7 @@ export const SearchBar: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchTerm.trim()) {
+    if (searchTerm.trim()) { 
       fetchMovies();
     }
   };
