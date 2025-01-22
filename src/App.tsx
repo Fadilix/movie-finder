@@ -16,7 +16,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center">
-                <Film className="h-8 w-8 text-red-600 mr-2" />
+                <Film className="h-8 w-8 text-red-600 mr-2" /> 
                 <h1 className="text-3xl font-bold text-red-600">MovieFinder</h1>
               </div>
               <SearchBar />
