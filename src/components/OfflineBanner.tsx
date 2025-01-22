@@ -16,7 +16,7 @@ export const OfflineBanner: React.FC = () => {
         }
       });
       setIsOnline(true);
-    //   console.log('User is online');
+    //  console.log('User is online');
     } catch (error) {
       setIsOnline(false);
     //   console.log('User is offline');
