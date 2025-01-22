@@ -37,7 +37,7 @@ export const MovieList: React.FC = () => {
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-      {movies.map((movie: Movie) => (
+      {movies.map((movie: Movie) => ( 
         <div
           key={movie.imdbID}
           className="group relative cursor-pointer"
