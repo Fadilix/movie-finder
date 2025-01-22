@@ -47,8 +47,11 @@ export const OfflineBanner: React.FC = () => {
   if (isOnline) return null;
 
   return (
-    <div className="bg-red-500 text-white px-4 py-2 text-center fixed bottom-0 left-0 right-0 z-[9999]">
-      You are currently offline. Please check your internet connection.
+    <div className="bg-red-500 text-white px-4 py-3 text-center fixed bottom-0 left-0 right-0 z-[9999] w-full
+      text-sm sm:text-base md:px-6 md:py-4 safe-area-bottom">
+      <p className="max-w-3xl mx-auto">
+        You are currently offline. Please check your internet connection.
+      </p>
     </div>
   );
 }; 
