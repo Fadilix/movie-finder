@@ -4,7 +4,7 @@ import { useMovieContext } from '../context/MovieContext';
 const genres = [
   'Action', 'Comedy', 'Drama', 'Horror', 'Sci-Fi',
   'Thriller', 'Romance', 'Animation', 'Adventure', 'Fantasy'
-];
+]; 
 
 const years = Array.from({ length: 75 }, (_, i) => new Date().getFullYear() - i);
 
