@@ -18,7 +18,7 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [filters, setFilters] = useState<SearchFilters>({
     year: '',
     genre: '',
-  });
+  }); 
 
   const fetchMovies = async () => {
     if (!searchTerm.trim()) return;
