@@ -8,7 +8,7 @@ export const Pagination: React.FC = () => {
 
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= totalPages) {
-      setCurrentPage(page);
+      setCurrentPage(page); 
       fetchMovies();
     }
   };
