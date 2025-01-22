@@ -14,7 +14,7 @@ export interface MovieDetails extends Movie {
   Runtime: string;
   imdbRating: string;
 }
-
+ 
 export interface SearchFilters {
   year: string;
   genre: string;
